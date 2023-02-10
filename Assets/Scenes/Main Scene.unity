@@ -531,6 +531,7 @@ GameObject:
   - component: {fileID: 719127313}
   - component: {fileID: 719127315}
   - component: {fileID: 719127316}
+  - component: {fileID: 719127317}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -566,10 +567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae626cf14de4f64983243b04b5fe462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  mouseSenstivity: 1
-  rb: {fileID: 719127316}
-  cam: {fileID: 519420031}
+  runSpeed: 20
 --- !u!50 &719127316
 Rigidbody2D:
   serializedVersion: 4
@@ -591,6 +589,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &719127317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719127312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082753e921c484443ab8ae76930b2aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1191608279
 GameObject:
   m_ObjectHideFlags: 0
