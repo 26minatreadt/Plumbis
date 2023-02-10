@@ -623,7 +623,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!1 &896161648
+--- !u!1 &1088612933
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -631,8 +631,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 896161650}
-  - component: {fileID: 896161649}
+  - component: {fileID: 1088612935}
+  - component: {fileID: 1088612934}
   m_Layer: 0
   m_Name: A*
   m_TagString: Untagged
@@ -640,13 +640,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &896161649
+--- !u!114 &1088612934
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896161648}
+  m_GameObject: {fileID: 1088612933}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
@@ -654,12 +654,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACQn+tqn0AbVAIAABIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF9VMtu2zAQ/BWD56aQYid1emsVx+nBiRG3yEUXmlxZhClS4MOPGP73LinJUlygJxEzs8vZB3UiQtkamNNmbgRfaA7k+4iEM/ky6slnONCNVivxAZ3mXXBXBhGNmjfqhEY8DWFWV+CMYD/URgZxgqBXotCmmvENZNo6i3BBpQWkjHYhWiF0GpEDfm4eQsgRT7ffwukDTw/J6IxHBsqB6aWdsJM1Kq+YpFUNPFjuxfdJJ8dTFCosp9UE60xLKWzrhbhjHWvNaG09VoICLijWFg0EfQliU7rgcxj8WhQWXGvK0OOjMNiiJiv5qZu+VdRuG2c7Kj1crDcpF/+wN2mkC6Or5+7WNNbjSsG2b/TIqHWDtg7hx8+2vdpTuaVrCe8lqBc9N9orjqQzPoR6C7ePg1SXyrIS2LbXNV6vQF//dzrnWPshk6JaB+TrpAFWUsdux9GDwbn8QsNxMWybAdFg4o+F33Qz3KCWeBLGOqTaKlVwt9beBCmZxZ6FYrzLtFEQ4dZzDYpKd1xiGnc9wCtucO0V80TDW2kvb7nuCVyFRLjXJ8kVtdT7y7BsqfcLsOWrd1Io6E0H4gX7lGmlmv0a9qQLW3lTUDYI23jBP68WmSY8WdMpHadAUzae3ownk3uW8PQOpukE7tYk7p5QWCeVy8Zo2x6cmuqTK9yz7hcymhtax13nhu7n4qPSg5YLVegVMwDqtclwMQ4GL8E3yWdcYINW4JxQcd7klBOp2RZ4fkmUx0pnB2do3mfJSS122gUkJ1n8Z+QkwJdVXhrYCdiHy7tkZ3L+C1BLAwQUAAAICAAAkJ/rqsoAKm0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0koVBikFSokWisWFqomGysYWusYmJWbJBiqFpqoWhSappklIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAkJ/rap9AG1QCAAASBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAkJ/rqsoAKm0AAAB4AAAACQAkAAAAAAAAAAAAAAChAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAFkDAAAAAA==
+    dataString: UEsDBBQAAAgIAACQn+tzwmnmYwIAACcFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzoWxCZDSW2sI6YGECe3k4ouQ11iDLHn0ESAM/70r2cYunZ4Q773dfbta+UK4NBUwq/RK82ytMiDfBsSfyZdBRz7Die6V3PJPaDXvPLOFF9GgeaOWK8RjH2ZUCVZz9l3uhRdHCDrJc6XLZbaHRBlrEM6pMICUVtZHS4QuA3LCn+Hch5zxNH70p088zaPBFY8MpAXdSVthK6tVTjJBywoyb7kTjyezUTR/eJy22dv/IUhia41+PJrMWiFTQnDT+CP2XIX+E1oZh92hIOMU+w2mvL4Avi+sT9IPfs1zA7Yxqul5wTWOrc5Kfqh6liU1h9rtBxUObu3UKdf/sMM40LlW5XNbNY58BVtwdnijZ0aN7Y26Dy8623EY2ZGKA90JeC9AvqiVVk5mSFrtfKgzMF70Ut06Swpgh05Xe70DXfX/G/NNXEPzp0Twcuep0aQGtkKFcYd9AI0X9BMdh20xTQpEvYvfBn7RfX+tGuKJa2ORatqU3t5OOe2lZBmG5rtxNlFaQoAb0xVIKux5g2ns/Q3ecb2yd8wT9Q+oKd5w7bu4Cwlwp4+iO2qjjrfbMoU6rsEUr84KLqEz7YkXnFOipKwXrD+TNmzrdE5ZL2zvePb3bpHHHKbjOJ7vdoyy+GEyzGc5zb+yaDqZ0UkeTUlYPi6xTyo2tdFmPHhrsksucdHa78pgpWkVlj3T9Ljin6XqjZzLXG2ZBpCvdYabcdBYBB9ntsw4DmgL1nIZ7ptcUiIUO0CW3hKlodPlyWqadllSUvEPZT2SkiR8SFLi4dsubzR8cDj64m2yK7n+AVBLAwQUAAAICAAAkJ/r9mf3w20AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0knlaqqmRoaFlUlJyYrKhsYlumllaYppFsoGpiVmiSZqBqVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAkJ/rc8Jp5mMCAAAnBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAkJ/r9mf3w20AAAB4AAAACQAkAAAAAAAAAAAAAACwAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAGgDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -682,39 +682,7 @@ MonoBehaviour:
     _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
     _AreaColors:
     - {r: 0, g: 0, b: 0, a: 0}
-  tagNames:
-  - Basic Ground
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
-  - 17
-  - 18
-  - 19
-  - 20
-  - 21
-  - 22
-  - 23
-  - 24
-  - 25
-  - 26
-  - 27
-  - 28
-  - 29
-  - 30
-  - 31
+  tagNames: []
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
@@ -727,15 +695,15 @@ MonoBehaviour:
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
   showGraphs: 1
---- !u!4 &896161650
+--- !u!4 &1088612935
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896161648}
+  m_GameObject: {fileID: 1088612933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1544601, y: -1.3842876, z: 0.004500015}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -769,15 +737,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191608279}
-  m_LocalRotation: {x: -0.027543556, y: -0, z: -0, w: 0.9996207}
-  m_LocalPosition: {x: -0.25, y: 0, z: 9.24}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 39966929}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -3.157, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &1191608281
 CharacterController:
   m_ObjectHideFlags: 0
@@ -851,25 +819,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 1
-  height: 0.01
+  radius: 16
+  height: 16
   canMove: 1
-  maxSpeed: 10
-  gravity: {x: 0, y: 0, z: 0}
+  maxSpeed: 1
+  gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
   centerOffsetCompatibility: NaN
   repathRateCompatibility: NaN
   canSearchCompability: 0
-  orientation: 1
+  orientation: 0
   enableRotation: 1
   autoRepath:
     mode: 2
     interval: 0.5
     sensitivity: 10
     maximumInterval: 2
-    visualizeSensitivity: 1
+    visualizeSensitivity: 0
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
